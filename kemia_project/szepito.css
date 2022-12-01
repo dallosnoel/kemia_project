@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+  }
+
+body {
+    background-color: cyan;
+}
+
+.kisebb {
+    font-size: 60%;
+}
+
+.rendszam {
+    text-align: left;
+}
