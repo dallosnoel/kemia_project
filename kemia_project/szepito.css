@@ -1,15 +1,26 @@
-table, th, td {
+.border {
     border: 1px solid black;
   }
 
 body {
-    background-color: cyan;
+    background-color: rgba(124, 116, 116, 0.466);
 }
 
-.kisebb {
-    font-size: 60%;
+.also {
+    font-size: 120%;
+    text-align: center;
+
 }
 
 .rendszam {
     text-align: left;
+}
+
+.jel {
+    font-size: 200%;
+    text-align: center;
+}
+
+.szunet {
+    width: 1800px;
 }
