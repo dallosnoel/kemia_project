@@ -1,5 +1,6 @@
 .border {
     border: 1px solid black;
+    width: 80px;
   }
 
 body {
@@ -19,8 +20,4 @@ body {
 .jel {
     font-size: 200%;
     text-align: center;
-}
-
-.szunet {
-    width: 1800px;
 }
