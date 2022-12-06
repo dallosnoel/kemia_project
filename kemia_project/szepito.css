@@ -1,23 +1,26 @@
-.border {
-    border: 1px solid black;
-    width: 80px;
+// create references to the modal...
+var modal = document.getElementById('myModal');
+// to all images -- note I'm using a class!
+var images = document.getElementsByClassName('myImages');
+// the image in the modal
+var modalImg = document.getElementById("img01");
+// and the caption in the modal
+var captionText = document.getElementById("caption");
+
+// Go through all of the images with our custom class
+for (var i = 0; i < images.length; i++) {
+  var img = images[i];
+  // and attach our click listener for this image.
+  img.onclick = function(evt) {
+    console.log(evt);
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
   }
-
-body {
-    background-color: rgba(124, 116, 116, 0.466);
 }
 
-.also {
-    font-size: 120%;
-    text-align: center;
+var span = document.getElementsByClassName("close")[0];
 
-}
-
-.rendszam {
-    text-align: left;
-}
-
-.jel {
-    font-size: 200%;
-    text-align: center;
+span.onclick = function() {
+  modal.style.display = "none";
 }
