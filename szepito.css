@@ -1,11 +1,13 @@
 .border {
-    border: 2px solid white;
+    border: 2px solid black;
     width: 80px;
   }
 
 h1 {
     text-align: center;
-    color: floralwhite;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 #myImg {
