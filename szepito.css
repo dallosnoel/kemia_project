@@ -3,6 +3,11 @@
     width: 80px;
   }
 
+h1 {
+    text-align: center;
+    color: floralwhite;
+}
+
 #myImg {
     cursor: pointer;
     transition: 0.3s;
