@@ -3,9 +3,6 @@
     width: 80px;
   }
 
-img {
-    position:fixed;
-}
 #myImg {
     cursor: pointer;
     transition: 0.3s;
