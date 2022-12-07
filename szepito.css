@@ -2,7 +2,9 @@
     border: 2px solid black;
     width: 80px;
   }
-
+body {
+    background-color: grey;
+}
 #myImg {
     cursor: pointer;
     transition: 0.3s;
