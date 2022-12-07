@@ -3,11 +3,6 @@
     width: 80px;
   }
 
-body {
-    background-color: rgba(124, 116, 116, 0.466);
-}
-
-
 #myImg {
     cursor: pointer;
     transition: 0.3s;
