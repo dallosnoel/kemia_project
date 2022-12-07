@@ -5,10 +5,10 @@
 
 h1 {
     text-align: center;
-    color: black;
+    color: darkblue;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    font-size: 150%;
+    font-size: 250%;
 }
 
 #myImg {
