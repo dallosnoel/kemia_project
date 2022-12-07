@@ -1,8 +1,8 @@
 # kemia_project
-__ The moving background/stlye.css __
+__The moving background/stlye.css__
 * https://www.youtube.com/watch?v=aywzn9cf-_U
 
-__ The Javascript/nagyito.js __
+__The Javascript/nagyito.js__
 * https://stackoverflow.com/questions/47798971/several-modal-images-on-page
 
 * https://jsfiddle.net/snowMonkey/f1zav0ge/
