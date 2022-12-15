@@ -1,6 +1,9 @@
-.border {
+.border2 {
+  position: top;
   border: 2px solid black;
   width: 80px;
+  z-index: 1;
+  position: relative;
 }
 
 h1 {
@@ -8,7 +11,7 @@ h1 {
   color: rgb(7, 7, 49, 0);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
-  font-size: 46px;
+  font-size: 40px;
 }
 
 #myImg {
@@ -23,7 +26,7 @@ h1 {
 .modal {
   display: none;
   /* Hidden by default */
-  position: fixed;
+  position: absolute;
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
